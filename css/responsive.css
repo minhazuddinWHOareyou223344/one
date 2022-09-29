@@ -1,0 +1,60 @@
+@media (min-width: 320px) and (max-width: 991px) {
+    header .welcome {
+      clip-path: none;
+    }
+    header .container {
+        max-width: 100%;
+    }
+    nav #myCustomNav ul li a {
+      position: relative;
+      text-align: center;
+      
+  }
+
+
+
+  #service h5 {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+  }
+  @media (min-width: 992px) {
+    nav.myNav {
+      height: 120px;
+    } 
+
+    nav.myNav .container {
+      position: relative;
+    }
+    nav #myCustomNav ul {
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+    }
+    nav .myLogo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: 0.5s;
+    }
+    nav #myCustomNav ul.menuActive {
+      opacity: 1;
+      visibility: visible;
+    }
+    nav .myLogo.activeLogo {
+      left: 0%;
+      transform: translateX(0%);
+    }
+    .myTooglerBtn{
+      cursor: pointer;
+
+    }
+   .myTooglerBtn:hover{
+    color: var(--primaryColor);
+}
+  
+  }
